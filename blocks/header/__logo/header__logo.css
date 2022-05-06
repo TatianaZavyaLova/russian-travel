@@ -1,0 +1,12 @@
+.header__logo {
+  justify-items: flex-start;
+  width: 176px;
+  height: 52px;
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
+}
