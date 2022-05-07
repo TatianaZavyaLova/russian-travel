@@ -1,16 +1,11 @@
 .cover {
   position: relative;
-  object-fit: cover;
   max-width: 1184px;
-  width: calc(100% - 2 * 48px);
+  width: 100%;
   min-height: 740px;
-  margin: 0 auto 0 auto;
-  padding: 0;
   display: flex;
   background-size: cover;
   flex-direction: column;
-  text-decoration: none;
-  align-items: center;
   background-image: url(../../images/cover-trains.jpg);
 }
 
@@ -19,7 +14,6 @@
     max-width: 100%;
     width: 100%;
     min-height: 640px;
-    margin: 0;
   }
 }
 
@@ -27,7 +21,6 @@
   .cover {
     width: 100%;
     min-height: 480px;
-    margin: 0;
   }
 }
 
@@ -35,6 +28,5 @@
   .cover {
     width: 100%;
     min-height: 200px;
-    margin: 0;
   }
 }
